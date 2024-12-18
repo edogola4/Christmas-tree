@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christmas tree</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Interactive Christmas Tree</h1>
+        <p>Control the snowfall and customize your tree!</p>
+    </header>
+    <div class="controls">
+        <label for="snow-intensity">Snow Intensity:</label>
+        <input type="range" id="snow-intensity" min="1" max="10" value="5">
+        <label for="tree-size">Tree Size:</label>
+        <input type="range" id="tree-size" min="50" max="200" value="150">
+    </div>
+    <div class="tree-container">
+        <div class="tree">
+            <div class="star"></div>
+            <div class="lights"></div>
+            <div class="layer layer-1"></div>
+            <div class="layer layer-2"></div>
+            <div class="layer layer-3"></div>
+            <div class="layer layer-4"></div>
+            <div class="trunk"></div>
+        </div>
+        <div class="snowflakes"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
