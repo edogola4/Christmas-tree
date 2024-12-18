@@ -114,4 +114,20 @@ header {
     border-radius: 50%;
     animation: fall linear infinite;
   }
+
+  @keyframes fall {
+    0% { transform: translateY(-100vh); opacity: 0; }
+    10% { opacity: 1; }
+    100% { transform: translateY(100vh); opacity: 0; }
+  }
+  
+  @keyframes sparkle {
+    0%, 100% { transform: translateX(-50%) scale(1); }
+    50% { transform: translateX(-50%) scale(1.2); }
+  }
+  
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+  }
   
