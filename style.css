@@ -54,3 +54,7 @@ header {
     border-style: solid;
     background-color: transparent transparent green transparent;
 }
+
+.layer-1 {
+   border-width: 0 60px 40px 60px; top: 30px;
+}
