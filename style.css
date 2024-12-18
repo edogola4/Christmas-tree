@@ -87,3 +87,13 @@ header {
     border-radius: 50%;
     background-color: red;
   }
+
+  .trunk {
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 60px;
+    background: brown;
+  }
