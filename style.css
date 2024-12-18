@@ -80,3 +80,10 @@ header {
     pointer-events: none;
     animation: blink 3s infinite;
 }
+
+.lights div {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: red;
+  }
