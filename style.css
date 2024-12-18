@@ -58,3 +58,7 @@ header {
 .layer-1 {
    border-width: 0 60px 40px 60px; top: 30px;
 }
+
+.layer-2 {
+    border-width: 0 75px 50px 75px; top: 80px;
+}
