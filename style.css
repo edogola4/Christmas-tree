@@ -62,3 +62,11 @@ header {
 .layer-2 {
     border-width: 0 75px 50px 75px; top: 80px;
 }
+
+.layer-3 {
+    border-width: 0 90px 60px 90px; top: 140px;
+}
+
+.layer-4 {
+    border-width: 0 105px 70px 105px; top: 210px;
+}
