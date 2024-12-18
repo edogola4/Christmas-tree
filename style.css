@@ -70,3 +70,13 @@ header {
 .layer-4 {
     border-width: 0 105px 70px 105px; top: 210px;
 }
+
+.lights {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    pointer-events: none;
+    animation: blink 3s infinite;
+}
