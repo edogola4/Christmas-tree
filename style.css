@@ -104,3 +104,14 @@ header {
     height: 100%;
     pointer-events: none;
   }
+
+  .snowflake {
+    position: absolute;
+    top: 0;
+    width: 10px;
+    height: 10px;
+    background: white;
+    border-radius: 50%;
+    animation: fall linear infinite;
+  }
+  
